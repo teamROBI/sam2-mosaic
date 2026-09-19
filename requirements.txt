@@ -1,0 +1,7 @@
+# Install torch/torchvision first, matching your CUDA version, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+numpy
+opencv-python-headless
+decord              # SAM2 uses it to load .mp4 files directly
+flask
+sam2 @ git+https://github.com/facebookresearch/sam2.git
